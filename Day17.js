@@ -10,7 +10,7 @@ const userSchema = new mongoose.Schema({
 const User = mongoose.model('User', userSchema);
 
 // Connect Mongoose to your MongoDB database
-mongoose.connect('mongodb+srv://yash1409:Qb9i_HA_.tzdx8k@cluster0.n8wj9y6.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://yash1409:<password>@cluster0.n8wj9y6.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
