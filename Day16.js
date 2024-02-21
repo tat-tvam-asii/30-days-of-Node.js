@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
  */
 function connectToMongoDB() {
   // MongoDB connection string
-  const mongoURI = 'mongodb+srv://yash1409:Qb9i_HA_.tzdx8k@cluster0.n8wj9y6.mongodb.net/?retryWrites=true&w=majority';
+  const mongoURI = 'mongodb+srv://yash1409:<password>@cluster0.n8wj9y6.mongodb.net/?retryWrites=true&w=majority';
 
   // Connect to MongoDB
   mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
