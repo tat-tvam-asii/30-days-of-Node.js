@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // MongoDB Atlas connection URI
-const uri = 'mongodb+srv://yash1409:Qb9i_HA_.tzdx8k@cluster0.n8wj9y6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const uri = 'mongodb+srv://yash1409:<password>@cluster0.n8wj9y6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 // Define Category schema
 const categorySchema = new mongoose.Schema({
