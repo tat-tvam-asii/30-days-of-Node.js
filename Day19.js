@@ -27,7 +27,7 @@ const userSchema = new mongoose.Schema({
     }
 });
 const userModel = mongoose.model("User", userSchema);
-mongoose.connect('mongodb+srv://yash1409:Qb9i_HA_.tzdx8k@cluster0.n8wj9y6.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://yash1409:<password>@cluster0.n8wj9y6.mongodb.net/?retryWrites=true&w=majority')
     .then(() => {
         console.log('MongoDB connected ✅');
         addUserWithValidation({ username: 'john_doe', email: 'invalid-email' });
