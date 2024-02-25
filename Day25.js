@@ -22,7 +22,7 @@ const productSchema = new mongoose.Schema({
     quantity: Number
 });
 const Product = mongoose.model('Product', productSchema);
-mongoose.connect('mongodb+srv://yash1409:Qb9i_HA_.tzdx8k@cluster0.n8wj9y6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://yash1409:<password>@cluster0.n8wj9y6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
     .then(() => {
         console.log('Connected to MongoDB ✅');
         createProductNameIndex();
